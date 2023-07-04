@@ -10,11 +10,14 @@
 
 body {
     background-color: #CFD6F7;
+}
+
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    margin-top: 120px;
 }
 
 .top {
@@ -121,4 +124,25 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+
+@media only screen and (max-width: 840px) {
+    .top{
+        width: 403px;
+        height: 100px;
+    }
+    .top>h1{
+        font-size: 38px;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        width: 403px;
+    }
+    .left{
+        margin-bottom: 15px;
+    }
+    .right_group{
+        margin-bottom: 15px;
+    }
 }
