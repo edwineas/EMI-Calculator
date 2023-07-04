@@ -127,6 +127,9 @@ body {
 }
 
 @media only screen and (max-width: 840px) {
+    .container{
+        margin-top: 30px;
+    }
     .top{
         width: 403px;
         height: 100px;
